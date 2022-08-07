@@ -1,0 +1,322 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #1e315c;
+}
+h2 {
+    font-size: 3.8rem;
+}
+h3 {
+    font-size: 5rem;
+}
+a{
+    text-decoration: none;
+}
+p {
+    font-size: 2rem;
+    color: #1e315c;
+}
+ul {
+    padding:0;
+    list-style: none;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+.contenedor-logo img{
+    width: 10rem;
+    height: 10rem;
+}
+.contenedor-logo{
+    display: flex;
+    max-width: 120rem;
+    margin-top: 2rem;
+    width: 90%;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .contenedor-logo{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.text-logo{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    color: #1e315c;
+}
+.slider img {
+    width: 100%;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+}
+.slider-item{
+    height: 100%;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    transition-property: transform;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #FDC66F;
+}
+.swiper-pagination-bullet{
+    background-color: #FDC66F;
+}
+.contenedor-header {
+    display: flex;
+    max-width: 120rem;
+    margin: 5rem auto;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width: 768px) {
+    .contenedor-header ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.navegacion__enlace{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.navegacion__enlace:hover{
+    background: #FDC66F;
+    border-bottom:solid .4rem black;
+}
+.contenedor-descripcion h1{
+    font-size: 4rem;
+}
+.contenedor-descripcion{
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
+.btn{
+    margin: 0 auto;
+    height: 4rem;
+    width: 20rem;
+    font-weight: 700;
+    background-color: #2f4077;
+    padding: .6rem .2rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+.btn:hover{
+    background-color: #1e315c;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.cards-contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+@media (max-width: 768px) {
+    .cards-contenedor{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        padding: 2rem;
+    }
+}
+.cards-contenedor img{
+    transition-duration: .3s;
+}
+.cards-contenedor img:hover{
+    cursor: pointer;
+    transform: scale(1.8);
+}
+.cards-contenedor p{
+    color: #2f4077;
+}
+.titulo-contenedor{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.titulo-contenedor h1{
+    font-size: 4rem;
+    color: #1e315c;
+}
+.cards-contenedor h1{
+    font-size: 2.5rem;
+    color: #1e315c;
+}
+.cards-contenedor img{
+    height: 8rem;
+    width: 8rem;
+}
+.video-contenedor{
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #e7e7e7;
+}
+@media (max-width: 768px) {
+    .video-contenedor{
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .contenedor-video{
+        display: none;
+    }
+}
+
+.liderazgo-contenedor {
+    text-align: center;
+}
+.seguridad-contenedor{
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+@media (max-width: 768px) {
+    .seguridad-contenedor{
+        flex-direction: column;
+    }
+}
+.investigaciones-contenedor{
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+@media (max-width: 768px) {
+    .investigaciones-contenedor{
+        flex-direction: column;
+    }
+}
+.contactanos-contenedor{
+    text-align: center;
+}
+.footer-us{
+    background-image: url('../img/banner usa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 768px) {
+    .footer-us{
+        flex-direction: column;
+        background-image: url('../img/banner usa.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.contenedor-logo-white h1{
+    color: white;
+    font-size: 3rem;
+}
+.contenedor-logo-white{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+}
+@media (max-width: 768px) {
+    .contenedor-logo-white{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.contenedor-logo-white img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .copyright{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.copyright p{
+    font-size: 1.2rem;
+    color: white;
+}
+.header-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+@media (max-width: 768px) {
+    .header-footer ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.footer__enlace{
+    color: #FDC66F;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+.footer__enlace:hover{
+    color: black;
+    background: white;
+    border-bottom:solid .4rem black;
+}
