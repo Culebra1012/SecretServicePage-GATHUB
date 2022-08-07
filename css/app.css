@@ -223,7 +223,7 @@ img {
 }
 @media (max-width: 768px) {
     .seguridad-contenedor{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 .investigaciones-contenedor{
