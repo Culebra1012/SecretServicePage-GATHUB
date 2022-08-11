@@ -388,3 +388,11 @@ img {
     font-size: 1.8rem;
     margin: 8rem;
 }
+@media (max-width: 768px) {
+    .requisitos{
+        margin: 1.5rem;
+    }
+    .formulario{
+        display: none;
+    }
+}
