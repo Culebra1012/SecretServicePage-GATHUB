@@ -396,6 +396,9 @@ img {
     font-size: 1.8rem;
     margin: 8rem;
 }
+.formulario {
+    height: auto; 
+}
 @media (max-width: 768px) {
     .requisitos{
         margin: 1.5rem;
