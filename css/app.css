@@ -407,3 +407,14 @@ img {
         display: none;
     }
 }
+.link-formulario {
+    display: none;
+}
+@media (max-width: 768px) { 
+    .link-formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+    }
+ }
