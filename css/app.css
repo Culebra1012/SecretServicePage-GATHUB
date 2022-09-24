@@ -418,7 +418,10 @@ img {
         font-size: 3rem;
     }
  }
-.cerradas .cerrado {
+.cerradas {
+    margin: 0 auto;
+}
+.cerradas span {
     color: red;
 }
 
