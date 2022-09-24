@@ -419,9 +419,7 @@ img {
     }
  }
  .contenedor-cerradas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
  }
  .cerradas span {
     color: red
