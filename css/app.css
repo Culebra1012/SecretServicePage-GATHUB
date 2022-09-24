@@ -418,10 +418,11 @@ img {
         font-size: 3rem;
     }
  }
-.cerradas {
-    margin: 0 auto;
-}
-.cerradas span {
-    color: red;
-}
-
+ .contenedor-cerradas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .cerradas span {
+    color: red
+ }
