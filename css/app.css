@@ -418,3 +418,7 @@ img {
         font-size: 3rem;
     }
  }
+.cerradas .cerrado {
+    color: red;
+}
+
